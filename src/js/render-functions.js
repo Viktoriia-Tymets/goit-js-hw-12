@@ -1,5 +1,6 @@
 import SimpleLightbox from "simplelightbox";
 
+
 export const createGalleryCardTemplate = imgInfo => {
     return `
       <li class="gallery-card">

@@ -9,7 +9,7 @@ export const fetchPhotosByQuery = (searchedEl, currentPage) => {
     orientation: 'horizontal',
     safesearch: true,
     page: currentPage,
-    per_page: 25,
+    per_page: 21,
   });
 
   return axios.get(`https://pixabay.com/api/?${searchParams}`, searchParams);

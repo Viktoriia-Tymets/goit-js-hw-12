@@ -13,7 +13,7 @@ const lightbox = new SimpleLightbox('.gallery a');
 
 let page = 1;
 let searchedEl = '';
-let perPage = 25;
+let perPage = 21;
 
 loadMoreBtn.classList.add('is-hidden');
 
