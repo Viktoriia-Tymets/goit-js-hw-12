@@ -64,9 +64,9 @@
     border: none;
     background-color: #ccac87;
   }
-  
-  .show-loader {
-    display: block;
+
+  .load-more.is-hidden {
+    display: none;
   }
   
   .gallery {
