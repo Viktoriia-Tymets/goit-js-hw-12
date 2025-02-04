@@ -1,4 +1,6 @@
+
 import axios from 'axios';
+
 
 export const fetchPhotosByQuery = (searchedEl, currentPage) => {
   const searchParams = new URLSearchParams({

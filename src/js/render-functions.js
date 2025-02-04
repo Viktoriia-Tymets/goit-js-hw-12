@@ -1,5 +1,4 @@
-import SimpleLightbox from "simplelightbox";
-
+import SimpleLightbox from 'simplelightbox';
 
 export const createGalleryCardTemplate = imgInfo => {
     return `
@@ -31,3 +30,4 @@ export const createGalleryCardTemplate = imgInfo => {
       </li>
     `;
   };
+

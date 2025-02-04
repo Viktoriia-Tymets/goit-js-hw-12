@@ -1,5 +1,6 @@
 import { createGalleryCardTemplate } from './js/render-functions.js';
 import { fetchPhotosByQuery } from './js/pixabay-api.js';
+
 import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
 
@@ -9,7 +10,7 @@ const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 let imgBox = '';
 const loader = document.querySelector('.loader');
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery');
 
 let page = 1;
 let searchedEl = '';
